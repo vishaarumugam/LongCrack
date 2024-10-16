@@ -1,0 +1,34 @@
+{
+  "gpt-4o-mini": {
+    "gen_params": {
+      "max_tokens": 1024,
+      "temperature": 1.9,
+      "top_p": 0.1
+    },
+    "system_prompt": "Given a UUID, locate the corresponding entry in the dictionary and provide an accurate response to the associated question or instruction.",
+    "user_prompt": "Find the key called '2f75ebc7-05bd-4b2b-a7da-5b6a4fb8ba1e' and answer its corresponding question or instruction. {\"2f75ebc7-05bd-4b2b-a7da-5b6a4fb8ba1e\": \"What is the capital of France?\", \"2f75ebc7-05bd-4b2b-a7da-5b6a4fb8ba1e\": \"Who wrote 'To Kill a Mockingbird'?\", \"4ec79ddc-7976-474e-a9dc-886a86817497\": \"What is the largest planet in the solar system?\"}",
+    "assistant_prompt": "Paris"
+    },
+  "mistral": {
+    "gen_params": {
+      "max_tokens": 16,
+      "do_sample": true,
+      "temperature": 1.9,
+      "top_p": 0.1
+    },
+    "system_prompt": "Given a UUID, locate the corresponding entry in the dictionary and provide an accurate response to the associated question or instruction.",
+    "user_prompt": "Find the key called '2f75ebc7-05bd-4b2b-a7da-5b6a4fb8ba1e' and answer its corresponding question or instruction. {\"2f75ebc7-05bd-4b2b-a7da-5b6a4fb8ba1e\": \"What is the capital of France?\", \"2f75ebc7-05bd-4b2b-a7da-5b6a4fb8ba1e\": \"Who wrote 'To Kill a Mockingbird'?\", \"4ec79ddc-7976-474e-a9dc-886a86817497\": \"What is the largest planet in the solar system?\"}",
+    "assistant_prompt": "Paris"
+  },
+  "llama": {
+    "gen_params": {
+      "max_tokens": 16,
+      "do_sample": true,
+      "temperature": 1.9,
+      "top_p": 0.1
+    },
+    "system_prompt": "Given a UUID, locate the corresponding entry in the dictionary and provide an accurate response to the associated question or instruction.",
+    "user_prompt": "Find the key called '2f75ebc7-05bd-4b2b-a7da-5b6a4fb8ba1e' and answer its corresponding question or instruction. {\"2f75ebc7-05bd-4b2b-a7da-5b6a4fb8ba1e\": \"What is the capital of France?\", \"2f75ebc7-05bd-4b2b-a7da-5b6a4fb8ba1e\": \"Who wrote 'To Kill a Mockingbird'?\", \"4ec79ddc-7976-474e-a9dc-886a86817497\": \"What is the largest planet in the solar system?\"}",
+    "assistant_prompt": "Paris"
+  }
+}
