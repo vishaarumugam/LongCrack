@@ -26,6 +26,7 @@ class MetaProcessor(metaclass=abc.ABCMeta):
     def get_params(self, model: str):
         try:
             with open('./resources/model_configs.json', 'r') as i_file:
+            #with open('./resources/model_configs_new.json', 'r') as i_file:
                 config = json.load(i_file)
             return config.get(model, {})
         except (FileNotFoundError, json.JSONDecodeError) as e:
